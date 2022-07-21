@@ -134,12 +134,22 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+
+.navbar .get-started a {
+  background: #87cefa;
+  color: #fff;
+  border-radius: .25rem;
+  margin: 0 0 0 30px;
+  padding: 10px 25px;
+}
+
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover, .navbar > a {
   color: #007bff;
 }
 .navbar .dropdown ul {
@@ -1255,3 +1265,4 @@ section {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
+
